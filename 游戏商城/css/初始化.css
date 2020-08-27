@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:微软雅黑;
+
+    /*禁止文字被选择*/
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    /*禁止文字被选择*/
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+}
+table,th{
+     border-collapse: collapse;
+}
+th,td{
+    text-align: center;
+}
+input{
+    outline: none;
+    border: none;
+}
+.fix::before,.fix::after {
+    content:'';
+    display:block;
+    height:0;
+    line-height:0;
+    visibility:hidden;
+    clear:both;
+}

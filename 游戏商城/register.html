@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>欢迎注册 - Player Game</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/初始化.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/foot.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/register.css">
+
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="bg"></div>
+<!--头部-->
+<div id="header" class="fix" style="background: rgb(0,0,0)">
+    <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+    <div class="home">
+        <div class="home_active loginh" href="javascript:;">
+            <div class="user-box" >
+                <div class="dl-no">
+                    <p>您还未登陆，请先&nbsp;<a href="login.html">登录</a></p>
+                    <a href=login.html type=btn class="btn btn-dlx">登&nbsp;陆</a>
+                </div>
+                <div class="dl-true">
+                    <p class="user-name"></p>
+                    <ul>
+                        <li><span class="fa fa-user-circle"></span><a href="javascrpt:;">个人中心</a></li>
+                        <li><span class="fa fa-rmb"></span><a href="javascrpt:;">我的钱包</a></li>
+                        <li><span class="fa fa-gamepad"></span><a href="javascrpt:;">我的游戏</a></li>
+                        <li class=" dl-exit"><span class="fa fa-sign-out"></span><a href="javascrpt:;">退出登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="index.html">首页</a>
+        <a href="game%20shop.html">商店</a>
+        <a href="shequ.html">社区</a>
+    </div>
+</div>
+<!--中部-->
+
+<div class="login-body container">
+    <div class="x">
+        <div class="login-box">
+            <form action="#" name="f" method="post">
+                <h2>欢迎注册</h2>
+                <div class="input_outer">
+                    <label >用&nbsp;户&nbsp;名：</label>
+                    <input name="logname" class="text"
+                           style="color: black !important; margin-top: -2px;position: absolute;"
+                           type="text" placeholder="您的账户名称">
+                    <div class="tips">
+
+                    </div>
+                </div>
+                <div class="input_outer">
+                    <label >设 置 密 码：</label>
+                    <input name="logpass" class="text"
+                           style="color: black !important; position:absolute; z-index:100;" value=""
+                           type="password" placeholder="建议至少两种字符组合">
+                    <div class="tips">
+
+                    </div>
+                </div>
+                <div class="input_outer">
+                    <label >确 认 密 码：</label>
+                    <input name="logpass" class="text"
+                           style="color: black !important; position:absolute; z-index:100;" value=""
+                           type="password" placeholder="请再次输入密码">
+                    <div class="tips">
+
+                    </div>
+                </div>
+                <div class="input_outer">
+                    <label >邮 箱 验 证：</label>
+                    <input name="email" class="text"
+                           style="color: black !important; margin-top: -2px;position: absolute;"
+                           type="email" placeholder="请输入您的常用邮箱">
+                    <div class="tips">
+
+                    </div>
+                </div>
+                <div class="box default">
+                    <input type="checkbox" id="ck" />
+                    <span>我已阅读并同意<a href="##">《玩家游戏用户注册协议》</a></span>
+                    <div class="tips">
+
+                    </div>
+                </div>
+                <div>
+                    <a href="javascript:;" class="login-btn">注&nbsp;&nbsp;册</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="foot_right">
+        <span>官方渠道:</span> <span class="fa fa-weixin"></span> <span class="fa fa-weibo"></span>
+        <span class="fa fa-qq"></span>
+    </div>
+    <div class="copyright">
+        <p>
+            <a href="javascript:;">Player Game</a> |
+            <a href="javascript:;">服务条款</a> |
+            <a href="javascript:;">用户服务协议</a> |
+            <a href="javascript:;">隐私政策</a> |
+            <a href="javascript:;">侵权通知</a> |
+            <a href="javascript:;">广告服务</a> |
+            <a href="javascript:;">客服中心</a> |
+            <a href="javascript:;">网站导航</a>
+        </p>
+        <p>
+            COPYRIGHT © PLAYER GAME
+        </p>
+        <p>
+            版权所有
+        </p>
+    </div>
+</footer>
+<div class="goLogin">
+    <div class="log">
+        正在跳转
+    </div>
+</div>
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="js/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/register.js"></script>
+<script src="js/header.js"></script>
+<script>
+
+
+</script>
+</body>
+</html>

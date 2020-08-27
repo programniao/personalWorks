@@ -1,0 +1,392 @@
+@media all and (min-width:1024px) {
+    .nav {
+        width: 100%;
+        height: 49px;
+        background-color: #353b48;
+    }
+    .nav_context {
+        width: 600px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner {
+        width: 100%;
+    }
+    .banner .banner_bg1 {
+        width: 100%;
+        height: 911px;
+        display: block;
+        background: url('../images/bg1.jpeg') no-repeat fixed;
+        background-size: 100% 1000px;
+        overflow: hidden;
+    }
+    .content {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+        z-index: 999;
+        background: url('../images/bg2.jpeg') no-repeat fixed;
+    }
+    .boutique {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+    }
+    .boutique .boutique_nav {
+        width: 1014px;
+        height: 300px;
+    }
+    .contact {
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(to top,#353b48,#2d3436);
+        overflow: hidden;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+        background-color: #2f3640;
+    }
+    
+    .banner2 {
+        width: 100%;
+        height: 100%;
+        background-color: #78e08f;
+    }
+    .banner2 .content_item {
+        width: 300px;
+        height: 200px;
+        margin-left: 1px;
+    }
+    .banner3 {
+        width: 100%;
+        height: 100%;
+        background: #2f3640;
+    }
+    .banner3_content {
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+    }
+    .banner4 {
+        width: 100%;
+        height: 910px;
+        background-color: #4cd137;
+        overflow: hidden;
+    }
+}
+@media all and (min-width:1280px) {
+    .nav {
+        width: 100%;
+        height: 49px;
+        background-color: #353b48;
+    }
+    .nav_context {
+        width: 600px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner {
+        width: 100%;
+    }
+    .banner .banner_bg1 {
+        width: 100%;
+        height: 911px;
+        display: block;
+        background: url('../images/bg1.jpeg') no-repeat fixed;
+        background-size: 100% 1000px;
+        overflow: hidden;
+    }
+    .content {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+        z-index: 999;
+        background: url('../images/bg2.jpeg') no-repeat fixed;
+    }
+    .boutique {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+    }
+    .boutique .boutique_nav {
+        width: 1270px;
+        height: 300px;
+    }
+    .contact {
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(to top,#353b48,#2d3436);
+        overflow: hidden;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+        background-color: #2f3640;
+    }
+
+    .banner2 {
+        width: 100%;
+        height: 100%;
+        background-color: #78e08f;
+    }
+    .banner2 .content_item {
+        width: 300px;
+        height: 200px;
+        margin-left: 1px;
+    }
+    .banner3 {
+        width: 100%;
+        height: 100%;
+        background: #2f3640;
+    }
+    .banner3_content {
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+    }
+    .banner4 {
+        width: 100%;
+        height: 910px;
+        background-color: #4cd137;
+        overflow: hidden;
+    }
+}
+@media all and (min-width:1640px) {
+    .nav {
+        width: 100%;
+        height: 49px;
+        background-color: #353b48;
+    }
+    .nav_context {
+        width: 600px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner {
+        width: 100%;
+        z-index: -1;
+    }
+    .banner .banner_bg1 {
+        width: 100%;
+        height: 911px;
+        display: block;
+        background: url('../images/bg1.jpeg') no-repeat fixed;
+        background-size: 100% 1000px;
+        overflow: hidden;
+    }
+    .content {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+        z-index: 999;
+        background: url('../images/bg2.jpeg') no-repeat fixed;
+    }
+    .boutique {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+    }
+    .boutique .boutique_nav {
+        width: 1630px;
+        height: 300px;
+    }
+    .contact {
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(to top,#353b48,#2d3436);
+        overflow: hidden;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+        background-color: #2f3640;
+    }
+
+    .banner2 {
+        width: 100%;
+        height: 100%;
+        background-color: #78e08f;
+    }
+    .banner2 .content_item {
+        width: 300px;
+        height: 200px;
+        margin-left: 1px;
+    }
+    .banner3 {
+        width: 100%;
+        height: 100%;
+        background: #2f3640;
+    }
+    .banner3_content {
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+    }
+    .banner4 {
+        width: 100%;
+        height: 910px;
+        background-color: #4cd137;
+        overflow: hidden;
+    }
+    .banner4_content .content_items {
+        width: 613.5px;
+        height: 380px;
+    }
+}
+@media all and (min-width:1730px) {
+    .nav {
+        width: 100%;
+        height: 49px;
+        background-color: #353b48;
+    }
+    .nav_context {
+        width: 600px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner {
+        width: 100%;
+        z-index: 1;
+    }
+    .banner .banner_bg1 {
+        width: 100%;
+        height: 911px;
+        display: block;
+        background: url('../images/bg1.jpeg') no-repeat fixed;
+        background-size: 100% 1000px;
+        overflow: hidden;
+    }
+    .content {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+        z-index: 999;
+        background: url('../images/bg2.jpeg') no-repeat fixed;
+    }
+    .boutique {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+    }
+    .boutique .boutique_nav {
+        width: 1730px;
+        height: 300px;
+    }
+    .contact {
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(to top,#353b48,#2d3436);
+        overflow: hidden;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+        background-color: #2f3640;
+    }
+
+    .banner2 {
+        width: 100%;
+        height: 100%;
+        background-color: #78e08f;
+    }
+    .banner2 .content_item {
+        width: 300px;
+        height: 200px;
+        margin-left: 1px;
+    }
+    .banner3 {
+        width: 100%;
+        height: 100%;
+        background: #2f3640;
+    }
+    .banner3_content {
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+    }
+    .banner4 {
+        width: 100%;
+        height: 910px;
+        background-color: #4cd137;
+        overflow: hidden;
+    }
+}
+@media all and (min-width:1841px) {
+    .nav {
+        width: 100%;
+        height: 49px;
+        background-color: #353b48;
+    }
+    .nav_context {
+        width: 600px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner {
+        width: 100%;
+    }
+    .banner .banner_bg1 {
+        width: 100%;
+        height: 911px;
+        display: block;
+        background: url('../images/bg1.jpeg') no-repeat fixed;
+        background-size: 100% 1000px;
+        overflow: hidden;
+    }
+    
+    .content {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+        z-index: 999;
+        background: url('../images/bg2.jpeg') no-repeat fixed;
+    }
+    .boutique {
+        width: 100%;
+        height: 911px;
+        background-color: white;
+    }
+    .boutique .boutique_nav {
+        width: 1831px;
+        height: 300px;
+    }
+    .contact {
+        width: 100%;
+        height: 500px;
+        background: linear-gradient(to top,#353b48,#2d3436);
+        overflow: hidden;
+    }
+    .footer {
+        width: 100%;
+        height: 200px;
+        background-color: #2f3640;
+    }
+
+    .banner2 {
+        width: 100%;
+        height: 100%;
+        background-color: #78e08f;
+    }
+    .banner2 .content_item {
+        width: 300px;
+        height: 200px;
+        margin-left: 1px;
+    }
+    .banner3 {
+        width: 100%;
+        height: 100%;
+        background: #2f3640;
+    }
+    .banner3_content {
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+    }
+    .banner4 {
+        width: 100%;
+        height: 910px;
+        background-color: #4cd137;
+        overflow: hidden;
+    }
+}

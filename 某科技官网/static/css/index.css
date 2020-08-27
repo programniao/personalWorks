@@ -1,0 +1,178 @@
+
+
+.banner {
+    width: 1910px;
+    z-index: -1;
+}
+
+.banner .banner_bg1 {
+    width: 1910px;
+    height: 911px;
+    display: block;
+    background: url('../images/bg1.jpeg') no-repeat fixed;
+    background-size: 1920px 1000px;
+    overflow: hidden;
+}
+
+.banner_bg1 h1 {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.content {
+    width: 1910px;
+    height: 911px;
+    background-color: white;
+    z-index: 999;
+    background: url('../images/bg2.jpeg') no-repeat fixed;
+}
+
+.content h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 370px;
+    color: white;
+}
+
+.content ul {
+    display: flex;
+    width: 910px;
+    height: 400px;
+    margin: 50px auto;
+}
+.content ul li {
+    width: 200px;
+    height: 100px;
+    border: 1px solid white;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 30%;
+    color: white;
+    font-size: 32px;
+    margin: 0 30px 0 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* 精品案例 */
+.boutique {
+    width: 1910px;
+    height: 911px;
+    background-color: white;
+}
+
+.boutique .boutique_nav {
+    width: 1910px;
+    height: 300px;
+}
+.boutique_nav .nav_top {
+    width: 300px;
+    height: 300px;
+    margin: 150px auto;
+}
+
+.nav_top h1 {
+    font-size: 50px;
+}
+
+.boutique .boutique_content {
+    width: 100%;
+    height: 611px;
+    background-color: #2f3640;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boutique_content .content_items {
+    width: 440px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+    font-size: 24px;
+}
+
+.contact {
+    width: 1910px;
+    height: 500px;
+    background: linear-gradient(to top,#353b48,#2d3436);
+    overflow: hidden;
+}
+
+.contact_center {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.contact .contact_top {
+    width: 400px;
+    height: 80px;
+    margin: 30px auto;
+}
+
+.contact_top h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.contact_center form {
+    margin-left: 210px;
+}
+
+.contact_center input {
+    width: 300px;
+    height: 40px;
+    color: #cccccc;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.contact_center textarea {
+    width: 300px;
+    height: 100px;
+    outline: none;
+    border: 1px solid #aaaaaa;
+    margin-top: 5px;
+    color: #cccccc;
+    font-size: 17px;
+}
+/* 底部 */
+.footer {
+    width: 1910px;
+    height: 200px;
+    background-color: #2f3640;
+}
+
+.footer h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.top {
+    width: 60px;
+    height: 40px;
+    background-color: #353b48;
+    border-radius: 5px;
+    position: fixed;
+    left: 50px;
+    top: 200px;
+    cursor: pointer;
+}
+
+.top li {
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    list-style: none;
+}
+
+/* 公共样式 */
+
+

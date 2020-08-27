@@ -1,0 +1,280 @@
+#header{
+    background: #000;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+.h-box{
+    text-align:center;
+    position: relative;
+}
+.exit{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-size: 30px;
+}
+.exit a{
+    color:#fff;
+}
+.G1{
+    background: url("../images/fc5-homepage-header-sermon_298453.jpg") no-repeat;
+    background-size: cover;
+    margin-top: 65px;
+}
+.G1-box{
+    width: 90%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.G1-box-header{
+    position: relative;
+    padding: 500px 0 0 0;
+    height: 0;
+}
+.G1-by{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 420px);
+    max-width: 860px;
+}
+.tit{
+    font-size: 34px;
+    line-height: 34px;
+    color: #fff;
+    margin-bottom: 30px;
+    display: block;
+    padding: 20px;
+    background: url("../images/fc5_pattern_intaglio_white.png")rgba(1,45,95,0.75);
+}
+.btn-d{
+    margin-right: 30px;
+    display: inline-block;
+    padding: 17px 20px 13px 20px;
+    min-width: 200px;
+    color: #fff;
+    font-size: 20px;
+    background: #9d0000 url("../images/fc5_btn_pattern.png") no-repeat;
+    border: 2px solid #9d0000;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn-d:hover{
+    background: #fff;
+    color:#9d0000;
+}
+.liaojie{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 400px;
+    height: 470px;
+    background: url("../images/fc5-personal-content-frame.png") 50% 50% no-repeat;
+    text-align: center;
+    color: #002d5f;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.Close{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: url("../images/fc5-personal-content-cross.png");
+}
+.news{
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+    color:#002d5f;
+}
+.news-xbox{
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.ntlt{
+    position: relative;
+    z-index: 2;
+    margin: 0 30px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: url("../images/fc5_title_left.png") 0 50% no-repeat, url("../images/fc5_title_right.png") 100% 50% no-repeat;
+    background-color: #012d5f;
+    background-size: cover, cover;
+    border: 1px solid #fff;
+    visibility: visible !important;
+}
+.ntlt::before,.ntlt::after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    display: block;
+    width: 40px;
+    height: 40px;
+
+}
+.ntlt::before{
+    left:-27px;
+    background: url("../images/fc5_title_banner_left.png") 0 100% no-repeat;
+    background-size: cover;
+}
+.ntlt::after{
+    right:-27px;
+    background: url("../images/fc5_title_banner_right.png") 100% 100% no-repeat;
+    background-size: cover;
+}
+.news h2{
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    line-height: 40px;
+}
+.news img{
+    width: 100%;
+}
+.news-nr{
+    background: #fff url("../images/fc5-bottom-separator.png")50% 98% no-repeat;
+    margin: 0 20px 0 20px;
+    padding: 20px 20px 40px 20px;
+    min-height: 387px;
+}
+.news-btn{
+    margin-top: 20px;
+}
+.G2-title h2{
+    background: url("../images/fc5-homepage-game-info-title.png") 50% 50% no-repeat;
+    height: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+    color: #fff;
+}
+.jieshao{
+    padding: 40px;
+}
+.jieshao p{
+    font-size: 16px;
+    color:#002d5f;
+    margin-bottom: 20px;
+}
+.j-box{
+    display: inline-block;
+    margin: 60px 0;
+    width: 33%;
+}
+.j-box::before,.j-box::after{
+    content: '';
+    display: block;
+    height: 40px;
+}
+.j-box::before{
+    margin: -40px 0 0 0;
+    background: url("../images/fc5_box_sun_up.png") 50% 100% no-repeat;
+}
+.j-box::after{
+    margin:0 0 -40px 0;
+    background: url("../images/fc5_box_sun_down.png") 50% 100% no-repeat;
+}
+.jj-box{
+    background: #002d5f url("../images/fc5_box_pattern.png");
+    border-image: url("../images/fc5_box_border.png") 8 repeat;
+    text-align: center;
+    margin: 0 20px;
+    border-style: solid;
+    border-width: 8px;
+}
+.jj-box img{
+    width: 100%;
+}
+.jx h3{
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+    background: #002d5f url("../images/fc5_box_title.png") 50% 0 no-repeat;
+    margin: 0;
+}
+.jj-box .btn-d{
+    margin: 20px 0;
+}
+.jj-box p{
+    margin: 0 20px;
+    font-size: 16px;
+    line-height: 100px
+}
+.jj-box span{
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    color:#002d5f;
+}
+.buy-game{
+    display: inline-block;
+    width: 49%;
+    padding: 50px;
+}
+.G3 img{
+    width: 100%;
+}
+.G3{
+    background: #fff url("../images/fc5-homepage-buy-now-gold.jpg") 50% 100% no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.buy-n{
+    display: inline-block;
+    width: 49%;
+    margin: 80px 0 0 0;
+    vertical-align: top;
+    padding: 220px 0 20px 0;
+    background: url("../images/fc5_buy_now_title.png") 50% 0 no-repeat;
+}
+.G3 p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #002d5f;
+}
+.G4{
+    background: url("../images/fc5-game-info-videos.jpg") 50% 100% no-repeat;
+    background-size: 100%;
+}
+.G4-tit{
+    margin-bottom: 30px;
+}
+.G4 a {
+    display: block;
+}
+.G4 img{
+    width: 100%;
+}
+.vd{
+    width: 33%;
+    display: inline-block;
+    padding: 10px;
+    position:relative;
+}
+.video-box{
+    padding-bottom: 20px;
+}
+.pf{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.vd:hover .pf{
+    display: block;
+}
+video{
+    width: 100%;
+    height: 100%;
+}

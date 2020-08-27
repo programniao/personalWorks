@@ -1,0 +1,395 @@
+
+body{
+    color: #444;
+}
+#header{
+    background: #000;
+}
+.bg{
+    background: url("../images/bg-4.png");
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.column{
+    padding-top: 80px;
+    background: #fff;
+    box-shadow: 0 0 5px;
+    /*margin-bottom: 30px;*/
+}
+.column a{
+    transition: 0.3s;
+}
+.comleft {
+    float:left;
+}
+.comleft a {
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    padding: 15px 0px 0 0px;
+    text-align:center;
+    color: #000;
+}
+.comleft a:hover{
+    background: #ccc;
+    text-decoration: none;
+}
+.comactive{
+    border-bottom: 5px solid orange;
+    font-weight: bold;
+}
+.sy-games{
+    display: none;
+}
+.comright{
+    float:right;
+    width: 20%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.search{
+    position: relative;
+    height: 100%;
+}
+.searchBtn{
+    position:absolute;
+    right: 0;
+    top: 0;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 100%;
+    text-align: center;
+    line-height: 100%;
+    background: orange;
+}
+.Sinp {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 0 40px 0 15px;
+    border: 1px solid orange;
+}
+
+
+/*游戏*/
+
+.games {
+    padding-top: 30px;
+    /*height: 500px;*/
+}
+.games .container{
+    position:relative;
+}
+.menu{
+    /*width: 150px;*/
+    background: #fff;
+    border: 1px solid #e0dfdf;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.logo img{
+    vertical-align: middle;
+}
+.menu {
+    transition: 0.3s;
+    padding: 20px;
+}
+.menu a {
+    color: #464646;
+    padding: 2px 5px;
+    font-size: 10px;
+    transition: 0.3s;
+    border: 1px solid #ccc;
+    margin: 5px;
+    border-radius: 5px;
+}
+.menu p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.sy-games{
+    padding-top: 30px;
+}
+.menu a:hover{
+    background: #ccc;
+}
+#carousel-example-generic {
+    margin: 0 60px;
+    width: 65%;
+}
+.shutter{
+    margin: 0 60px;
+}
+.carousel-control{
+    left: -50px;
+    width: 3%;
+    height: 70px;
+    margin-top: -35px;
+    top: 50%;
+    border-radius: 3px;
+}
+.carousel-control.right{
+    right: -50px;
+}
+.carousel-control span{
+    line-height: 20px;
+}
+.shutter-btn li.prev,.shutter-btn li.next{
+    opacity: 0;
+    transition: 0.3s;
+}
+.shutter:hover .shutter-btn li.prev{
+    opacity: 1;
+}
+.shutter:hover .shutter-btn li.next{
+    opacity: 1;
+}
+.paiming{
+    position:absolute;
+    right: 40px;
+    top: 0;
+    width: 230px;
+    background: #fff;
+    border: 1px solid #e0dfdf;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+.paiming ul li:hover{
+    background: #ccc;
+}
+.paiming ul li:first-child:hover{
+    background: none;
+}
+
+.paiming ul li {
+    transition: 0.3s;
+}
+.paiming ul li a {
+    color: #464646;
+    padding-left: 30px;
+    line-height: 30px;
+    transition: 0.3s;
+}
+.paiming ul li:first-child a{
+    font-size:18px;
+    font-weight: bold;
+    color: #ccc;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+/*#carousel-example-generic img{*/
+    /*width: 65%;*/
+/*}*/
+/*.xinxi{*/
+    /*width: 35%;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*position:absolute;*/
+    /*height: 100%;*/
+/*}*/
+.hotGames{
+    padding-top: 30px;
+}
+.title span{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    /*border: 3px solid orange;*/
+    /*border-left: 0;*/
+    /*border-top: 0;*/
+    padding-right: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.title span::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background: orange;
+    width: 40%;
+    /*margin: -10px;*/
+    bottom: -5px;
+}
+.gms > a {
+    display: block;
+    position:relative;
+    overflow: hidden;
+}
+.gms >a:hover .gameN{
+    bottom: 0;
+}
+.gms > a:first-child{
+    margin-left: 0;
+}
+.gms img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.gms .gameN{
+    width: 90%;
+    position: absolute;
+    bottom: -36px;
+    left: 15px;
+    text-align: center;
+    background: #fff;
+    color: #545454;
+    padding-top: 10px;
+    transition: 0.3s;
+}
+.gms .nam{
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 5px;
+}
+.man{
+    transition: 0.3s;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    /*border-top: 1px dashed #ccc;*/
+    /*padding-top: 5px;*/
+}
+.man:hover{
+    background: #efefef;
+}
+.jpG{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.jpjies{
+    position: absolute;
+    left: 0;
+    top: -100%;
+    z-index: 5;
+    background: rgba(204, 204, 204, 0.68);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+}
+.jpG:hover .jpjies{
+    top: 0;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.nav > li > a:hover,
+.nav > li > a:focus{
+    background: orange;
+    border: 0;
+    color: #fff;
+}
+.nav-tabs > li > a{
+    border:0;
+}
+.nav-tabs{
+    border: 0;
+}
+.tab-content p{
+    color: #252424;
+    line-height: 40px;
+    font-size: 18px;
+    text-indent: 28px;
+    /*font-weight: bold;*/
+}
+.tab-content h3{
+    color: #252424;
+}
+.tab-content {
+    padding: 10px ;
+}
+.tab-content .sd{
+    font-size: 16px;
+    color: #252424;
+    line-height: 40px;
+    /*font-weight: bold;*/
+}
+.nav-tabs > li{
+    width: 50%;
+    text-align: center;
+}
+.nav-tabs > li > a{
+    margin: 0;
+}
+.nav-tabs a{
+    color: #252424;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.tab-box{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+.buyGame{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 50px;
+    text-align:center;
+    background: orange;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border:0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.jpGame{
+    padding-top: 20px;
+}
+.nav-tabs > li > a{
+    border-radius: 0!important;
+}
+.gd-game{
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border: 0;
+    background: orange;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+@media (max-width:1250px) {
+    #carousel-example-generic{
+        margin: 0 35px;
+    }
+}
+@media (max-width: 1200px) {
+    .gms .gameN{
+        width: 94%;
+    }
+    .gms a{
+        margin-bottom: 20px;
+    }
+    .jpG img{
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .paiming{
+        display: none;
+    }
+    #carousel-example-generic{
+        margin: 0;
+        width: 100%;
+    }
+}

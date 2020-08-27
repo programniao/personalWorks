@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html lang="en"xml:base=img>
+<head>
+    <meta charset="UTF-8">
+    <title>仿WeGame 游戏商城——发现大世界</title>
+    <link rel="icon" href="img/wg-icon.png">
+    <link rel="stylesheet" href="css3/header.css">
+    <link rel="stylesheet" href="css3/banner.css">
+    <link rel="stylesheet" href="css3/content.css">
+
+
+</head>
+<body>
+<!--头部-->
+<div class="wight-header">
+    <div class="wight-left">
+        <a href="#"><img src="img/wg-logo.png" alt=""></a>
+    </div>
+    <div class="wight-center">
+        <ul>
+            <li class="cur">
+                <a href="#" class="color1">商城</a>
+            </li>
+            <li>
+                <a href="#">客户端</a>
+            </li>
+            <li>
+                <a href="#">移动端</a>
+            </li>
+            <li>
+                <a href="#">翼计划</a>
+            </li>
+            <li>
+                <a href="#">帮助反馈</a>
+            </li>
+        </ul>
+    </div>
+    <div class="wight-right">
+        <ul class="wight-right-ul">
+            <li>
+                <a href="#">开发者平台</a>
+            </li>
+            <li class="wight-right-kehu">
+                <a href="#">下载客户端</a>
+            </li>
+        </ul>
+        <div class="wight-right-login" id="wg-right-login">
+            <a href="#" id="wg-right-a1">登录</a>
+        </div>
+    </div>
+</div>
+<!--登录遮罩-->
+<div class="wight-mask" id="wg-mask">
+    <div class="wight-login" id="wg-login">
+        <div class="wight-login-hd">
+            <ul class="wight-login-nav" id="wight-nav">
+                <li class="wight-nav-one cur" id="nav-one">
+                    QQ登录
+                </li>
+                <li class="wight-nav-two" id="nav-two">
+                    微信登录
+                </li>
+            </ul>
+            <a href="#" class="wg-logo-close" id="wg-login-close">
+            </a>
+        </div>
+        <div class="wight-login-bd" id="cont">
+            <section class="tab">
+                <div class="wight-bd-1">
+                    快速安全登录
+                </div>
+                <div class="wight-bd-2">
+                    请使用
+                    <a href="#">QQ手机版</a>
+                    扫描二维码,
+                    <br>
+                    或点击头像授权登录
+                </div>
+                <div class="wight-bd-3" id="wight-bd-span">
+                        <span class="wight-bd-3-span">
+                            <img src="img/download.png" alt="" class="wight-bd-down">
+                        </span>
+                        <a href="javascript:void (0)" hidefocus="true" class="wight-bd3-a1">
+                            <img src="img/me.jpg" alt="" style="width: 82px ;height: 82px" class="wight-bd-me">
+                            <span class="wight-ba-a-span" id="wight-ba-a-span">2227538704</span>
+                        </a>
+                </div>
+                <div class="wight-wg-bd-bottom">
+                    <a href="#" class="wight-nav-three" id="wight-nav-three">账号密码登录</a>
+                    <span>|</span>
+                    <a href="http://localhost:63342/%E4%BB%A3%E7%A0%81/%E9%A1%B9%E7%9B%AE/wegame/registered.html?_ijt=fk7bbj08pkq3tphhlggs2dvan1">注册新账号</a>
+                    <span>|</span>
+                    <a href="#">意见反馈</a>
+                </div>
+            </section>
+            <section class="tab">
+                <div class="wight-bd-sect2">
+                    <span class="sect2-span1">微信登录</span>
+                    <br>
+                    <span class="wight-sect2">QQ于微信信息账号独立</span>
+                </div>
+                <div class="wight-bd-sect2-erwei">
+                    <div class="wight-ba-sect2-wei">
+                        <img src="img/download.png" alt="" style="width: 180px;height: 180px">
+                    </div>
+                    <div class="wight-ba-sect2-text">
+                        请使用微信扫描二维码登录
+                        <br>
+                        <span class="sect2-text-1">"WeGame国内站点"</span>
+                    </div>
+                </div>
+            </section>
+            <section class="tabe" id="tab-none">
+                <div class="tab-input">
+                    账号密码登录
+                </div>
+                <div class="tab-input-ba-3">
+                    推荐使用
+                    <a href="#" id="tab-input-ba">快速安全登录</a>
+                    ,防止盗号.<br>
+                    <div class="wight-bd-input-icon!" id="input-icon-1">
+                    <span class="bd-icon" id="bd-icon">
+
+                    </span>
+                        <span class="bd-text" id="bd-text">账号不能为空!</span>
+                    </div>
+                </div>
+
+                <div class="wight-bd-inputs">
+                    <input type="text" placeholder="支持QQ号/邮箱/手机号" id="text"><br>
+                    <a href="#" class="wight-bd-input-icon" id="wight-bd-icon"></a>
+                    <input type="password" placeholder="密码" id="section3-pass"><br>
+                    <input id="section3-btn" class="input-3" type="button" value="登录"><br>
+                </div>
+                <div class="wight-wg-bd-bottom2">
+                    <a href="#" class="wight-nav-three">忘记密码?</a>
+                    <span>|</span>
+                    <a href="#">注册新账号</a>
+                    <span>|</span>
+                    <a href="#">意见反馈</a>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!--banner部-->
+<div class="wight-banner-big-box">
+    <div class="wight-banner-header">
+        <div class="banner-header">
+            <ul class="banner-header-left">
+                <li class="hcur">
+                    <a href="#">精选</a>
+                </li>
+                <li class="hright">
+                    <div class="banner-header-lt-rt" id="move">
+                        <a href="#" class="one">所有内容</a>
+                        <span class="header-span"></span>
+                        <div class="dropdown-lt-rt" id="sam-box">
+                           <div class="menu-ul">
+                               <div class="menu-li">
+                                   <a href="#">娱乐应用</a>
+                               </div>
+                               <div class="menu-li">
+                                   <a href="#">更多内容</a>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="banner-header-right">
+                <div class="banner-header-ri-input">
+                    <p class="banner-tui">
+                        <input type="text" placeholder="剑网3" id="text2">
+                        <span class="banner-sumit">
+                                 <div class="sumit">
+                                     <a href="#">
+                                <img src="img/inputsou.png" alt="">
+                                     </a>
+                                </div>
+                        </span>
+                    </p>
+                    <div class="banner-input-none" id="input-none2">
+                        <div class="input-none">
+                            <p class="assn-tit hot">热搜</p>
+                            <ul class="menum-mar">
+                                <li class="menum-new">
+                                    <div>
+                                        <i class="tag-num num1">
+
+                                        </i>
+                                        铁甲雄兵
+                                    </div>
+                                </li>
+                                <li class="menum-new">
+                                    <div>
+                                        <i class="tag-num num2"></i>
+                                        三国杀
+                                    </div>
+                                </li>
+                                <li class="menum-new">
+                                    <div>
+                                        <i class="tag-num num3">
+
+                                        </i>
+                                        Muse Dash喵斯快跑
+                                    </div>
+                                </li>
+                                <li class>
+                                    <div>
+                                        <i class="tag-num num4">
+
+                                        </i>
+                                        剑灵洪门崛起
+                                    </div>
+                                </li>
+                                <li class="menum-new">
+                                    <div>
+                                        <i class="tag-num num5">
+
+                                        </i>
+                                        星际战甲
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-header-rt-a">
+                    <a href="#" class="banner-a1">大型网游</a>
+                    <span>|</span>
+                    <a href="#" class="banner-a2">单机</a>
+                    <span>|</span>
+                    <a href="#" class="banner-a3">3D动漫网游</a>
+                    <span>|</span>
+                    <a href="#" class="banner-a4">剑网3正式开服</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-panel" id="banner-background">
+        <a href="javascript:void(0)"class="btn-expand" id="btn-ex">
+            收起专题
+        </a>
+        <a href="#">
+            <div class="pannel-region" id="region">
+                <div class="pannel-cover" id="cover">
+                    <img src="img/smallbanner.jpg" alt="">
+                </div>
+                <img src="img/bigbanner.jpg" alt="">
+            </div>
+        </a>
+    </div>
+    <div class="banner-page-cont">
+        <div class="banner-left-fr">
+            <div class="banner-left-down" >
+                <div class="banner-left-down-btn" id="banner-left-down">
+                    <span>APP</span>
+                </div>
+                <div class="banner-left-box-none" id="banner-box-none">
+                    <div class="banner-box-none1">
+                        <img src="img/wg-erweima.png" alt="" style="width: 106px;height: 106px">
+                    </div>
+                    <div class="banner-box-none2">
+                        <strong>
+                            下载掌上WeGame
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--轮播图-->
+        <div class="main" id="main">
+            <div class="banner" id="banner">
+                <a href="#">
+                    <div class="banner-slide slide1">
+                        <a href="#">
+                            <img src="img/wg-banner1.jpeg" alt="">
+                        </a>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="banner-slide slide2">
+                        <a href="#">
+                            <img src="img/wg-banner2.jpeg" alt="">
+                        </a>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="banner-slide slide3">
+                        <a href="#">
+                            <img src="img/wg-banner3.jpeg" alt="">
+                        </a>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="banner-slide slide4">
+                        <a href="#">
+                            <img src="img/wg-banner4.jpeg" alt="">
+                        </a>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="banner-slide slide5">
+                        <a href="#">
+                            <img src="img/wg-banner6.jpeg" alt="">
+                        </a>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="banner-slide slide6">
+                        <a href="#">
+                            <img src="img/wg-banner7.jpeg" alt="">
+                        </a>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="banner-slide slide7">
+                        <a href="#">
+                            <img src="img/wg-banner5.jpeg" alt="">
+                        </a>
+                    </div>
+                </a>
+            </div>
+            <div class="nav" id="nav">
+                <ul id="banner-ul">
+                    <li class="changeColor"><a href="javascript:void (0)">DNF11周年</a></li>
+                    <li><a href="javascript:void (0)">三国杀</a></li>
+                    <li><a href="javascript:void (0)">流放之路</a></li>
+                    <li><a href="javascript:void (0)">剑网三预下载开启</a></li>
+                    <li><a href="javascript:void (0)">堡垒世界杯</a></li>
+                    <li><a href="javascript:void (0)">疾风之刃</a></li>
+                    <li><a href="javascript:void (0)">WeGame独家充值大礼</a></li>
+                </ul>
+            </div>
+    </div>
+        <!--热点预告-->
+        <div class="tui-pancl skin-pancl pancl-futrue" id="banner-tuipancl">
+            <div class="banner-skain">
+                <div class="skain-inner">
+                    <span class="skain">热点预告</span>
+                </div>
+            </div>
+            <div class="banner-bd-pancl">
+                <div class="banner-pancl-game banner-pan-wp">
+                    <div class="wight-view">
+                        <ul class="wight-view-list" id="view-list">
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>WeGame特权新服开启</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie12.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        剑灵
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>新职业预约送好礼</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>进入活动</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat">
+                                                    <div class="wight-four">
+                                                        <span>活动</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>流放之路</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie11.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        流放之路
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>S8战乱之殇开启</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>进入活动</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat">
+                                                    <div class="wight-four">
+                                                        <span>活动</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>FIFA Online4</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie10.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        FIFA Online4(足球在线4)
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>卡卡回归领WeGame豪礼</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>进入活动</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat">
+                                                    <div class="wight-four">
+                                                        <span>活动</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>堡垒世界杯</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie9.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        堡垒之夜
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>瓜分一亿V币</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>进入活动</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat">
+                                                    <div class="wight-four">
+                                                        <span>活动</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>Q币 超级会员等你拿</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie8.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        逆战
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>全模式射击平台网游</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>进入活动</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat">
+                                                    <div class="wight-four">
+                                                        <span>活动</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>助力总决赛</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie7.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        NBA2KOL2
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>新秀注册领巨星</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>进入活动</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat">
+                                                    <div class="wight-four">
+                                                        <span>活动</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>版本更新，限时特惠</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie6.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        了不起的修仙模拟器
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span class="wight-span">¥ 64</span>
+                                                    <del class="wight-del">¥ 68</del>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>关注</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat wight-view-four-game">
+                                                    <div class="wight-four">
+                                                        <span>游戏</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>准点在线领天勇</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie5.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        疾风之刃
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>夏日福利-点券暴击</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-center">
+                                                        <span>进入活动</span>
+                                                    </div>
+
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat">
+                                                    <div class="wight-four">
+                                                        <span>活动</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>限时5折</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie4.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        三国志汉末霸业
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>周年庆活动</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>关注</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat wight-view-four-game">
+                                                    <div class="wight-four">
+                                                        <span>游戏</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>少女跑酷</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie3.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        Muse Dash喵斯酷跑
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span class="wight-span">¥ 14</span>
+                                                    <del>¥ 18</del>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>关注</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat wight-view-four-game">
+                                                    <div class="wight-four">
+                                                        <span>游戏</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="soon">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span>公测现已开启</span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie2.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text ">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        剑网3
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>首周登陆领360元豪礼</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-left">
+                                                        <span>关注</span>
+                                                    </div>
+                                                    <a href="#"class="wight-three-right">
+                                                        <span>游戏详情</span>
+                                                    </a>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat wight-view-four-game">
+                                                    <div class="wight-four">
+                                                        <span>游戏</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tmp"id="first">
+                                <div class="wight-view-soon">
+                                    <div class="wight-view-top">
+                                        <div class="wight-time">
+                                            <strong>
+                                                6月
+                                            </strong>
+                                        </div>
+                                        <div class="wight-intro">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="wight-view-img-text wight-view-ya wight-view-tx">
+                                        <div class="wight-view-imgtext">
+                                            <div class="wight-view-img">
+                                                <a href="#">
+                                                    <img src="img/wg-bannerlie1.jpg" alt="" style="width: 184px;height: 242px;">
+                                                </a>
+                                            </div>
+                                            <div class="wight-view-text">
+                                                <div class="wight-view-one">
+                                                    <strong>
+                                                        竞猜赢Q币
+                                                    </strong>
+                                                </div>
+                                                <div class="wight-view-two">
+                                                    <span>竞猜功能全新上线</span>
+                                                </div>
+                                                <div class="wight-view-three">
+                                                    <div class="wight-three-center">
+                                                        <span>进入活动</span>
+                                                    </div>
+                                                </div>
+                                                <div class="wight-view-four-inner wight-view-four-cat">
+                                                    <div class="wight-four">
+                                                        <span>活动</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="wight-slider">
+                        <div class="btn-pre" id="pre"></div>
+                        <div class="btn-next" id="next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+    <div class="banner-cont-big-box">
+        <div class="banner-cont-box">
+            <div class="banner-cont-main">
+                <div class="banner-cont-lots banner-cont-left">
+                    <div class="banner-left-child">
+                        <div class="banner-left-h2">
+                            <h2 class="banner-txt">火爆新品</h2>
+                        </div>
+                        <div class="banner-left-bd">
+                            <div class="banner-rank">
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover">
+                                                    <img src="img/wg-main1.jpg" alt="" style="width: 320px;height: 179px;">
+                                                    <span class="wight-gcard-span">1</span>
+                                                </div>
+                                                <div class="wight-gcard-info">
+                                                    <div class="wight-info-smal">
+                                                        <div class="wight-sall">
+                                                            时长付费
+                                                        </div>
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span>2019-06</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-main2.jpg" alt="" style="width: 102px;height: 58px;">
+                                                    <span class="wight-gcard-span2"><i>2</i></span>
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>三国杀</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon">
+                                                        免费
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span>2019-04</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-main3.jpg" alt="" style="width: 102px;height: 58px;">
+                                                    <span class="wight-gcard-span2"><i>2</i></span>
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>星际战甲</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon">
+                                                        免费
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span>2019-03</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-main4.jpg" alt="" style="width: 102px;height: 58px;">
+                                                    <span class="wight-gcard-span2"><i>2</i></span>
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>铁甲雄兵</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon">
+                                                        免费
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span>2019-04</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-main5.jpg" alt="" style="width: 102px;height: 58px;">
+                                                    <span class="wight-gcard-span2"><i>2</i></span>
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>Muse Dash喵斯快跑</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon wight-sall-color">
+                                                        ¥18
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span>2019-06</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-main6.jpg" alt="" style="width: 102px;height: 58px;">
+                                                    <span class="wight-gcard-span2"><i>2</i></span>
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>了不起的修仙模拟器</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon wight-sall-color">
+                                                        ¥ 64
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span>2019-01</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-cont-lots banner-cont-center">
+                    <div class="banner-left-child">
+                        <div class="banner-left-h2">
+                            <h2 class="banner-txt">本周热销</h2>
+                        </div>
+                        <div class="banner-left-bd">
+                            <div class="banner-rank">
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover">
+                                                    <img src="img/wg-center-main1.jpg" alt="" style="width: 320px;height: 179px;">
+                                                    <span class="wight-gcard-span">1</span>
+                                                </div>
+                                                <div class="wight-gcard-info">
+                                                    <div class="wight-info-smal">
+                                                        <div class="wight-sall wight-sall-color">
+                                                            ¥ 18
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-center-main2.jpg" alt="" style="width: 102px;height: 58px;">
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>饥荒:联机版</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon wight-sall-color">
+                                                        ¥ 24
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-center-main4.jpg" alt="" style="width: 102px;height: 58px;">
+                                                    <span class="wight-gcard-span2"><i>2</i></span>
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>了不起的修仙模拟器</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon wight-sall-color">
+                                                        ¥ 68
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span class="wight-info-icn">
+
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-center-main3.jpg" alt="" style="width: 102px;height: 58px;">
+                                                    <span class="wight-gcard-span2"><i>2</i></span>
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>中国式家长</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon wight-sall-color">
+                                                        ¥ 36
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span class="wight-info-icn1"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-center-main-5.jpg" alt="" style="width: 102px;height: 58px;">
+                                                    <span class="wight-gcard-span2"><i>2</i></span>
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>3DMark 进阶版</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon wight-sall-color">
+                                                        ¥ 11 原价 ¥ 88
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span class="wight-info-icn"></span>
+                                                    </div>
+                                               </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="banner-game-link banner-game-link2">
+                                    <div class="wight-gcard wight-gcard2">
+                                        <a href="#">
+                                            <div class="wight-gcard-wp">
+                                                <div class="wight-gcard-cover-2">
+                                                    <img src="img/wg-center-main6.jpg" alt="" style="width: 102px;height: 58px;">
+                                                    <span class="wight-gcard-span2"><i>2</i></span>
+                                                </div>
+                                                <div class="wight-gcard-info wight-gcard-info2">
+                                                    <div class="wight-info-smal2">
+                                                        <strong>隐形守护者</strong>
+                                                    </div>
+                                                    <div class="wight-info-mon">
+                                                        免费
+                                                    </div>
+                                                    <div class="wight-info-time">
+                                                        <span class="wight-info-icn1"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-cont-lots banner-cont-right">
+                    <div class="banner-cont-child-right">
+                        <div class="banner-cont-right">
+                            <div class="banner-cont-top">
+                                <div class="banner-tet">
+                                    <h2 class="banner-txt">火爆新品</h2>
+                                </div>
+                                <div class="banner-main">
+                                    <div class="banner-mains">
+                                        <div class="wight-banner">
+                                            <a href="#">
+                                                <div class="right-main-one">
+                                                    <img src="img/wg-right-main2.jpg" alt="" style="width: 60px;height: 78px;">
+                                                    <span class="right-main-span">
+                                                        <span><i>1</i></span>
+                                                    </span>
+                                                </div>
+                                                <div class="right-main-two">
+                                                    <div class="right-main-two-top">
+                                                        <strong>Muse Dach喵斯快跑</strong>
+                                                    </div>
+                                                    <div class="right-main-two-bottom">
+                                                        <div class="right-two">
+                                                            <strong class="right-two-strong">
+                                                                <span class="right-two-span">¥</span>
+                                                                <span>18</span>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="right-main-three">
+                                                    <div class="right-three-main">
+                                                        <div class="right-three-top">
+                                                            <span>98.2%</span>
+                                                        </div>
+                                                        <div class="right-three-bottom">
+                                                            <span>周推荐率</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="banner-main">
+                                    <div class="banner-mains">
+                                        <div class="wight-banner">
+                                            <a href="#">
+                                                <div class="right-main-one">
+                                                    <img src="img/wg-right-main3.jpg" alt="" style="width: 60px;height: 78px;">
+                                                </div>
+                                                <div class="right-main-two">
+                                                    <div class="right-main-two-top">
+                                                        <strong>虎豹骑</strong>
+                                                    </div>
+                                                    <div class="right-main-two-bottom">
+                                                        <div class="right-two">
+                                                            <strong class="right-two-strong1">
+                                                                <span>免费</span>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="right-main-three">
+                                                    <div class="right-three-main">
+                                                        <div class="right-three-top">
+                                                            <span>95.2%</span>
+                                                        </div>
+                                                        <div class="right-three-bottom">
+                                                            <span>周推荐率</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="banner-main">
+                                    <div class="banner-mains">
+                                        <div class="wight-banner">
+                                            <a href="#">
+                                                <div class="right-main-one">
+                                                    <img src="img/wg-right-main1.jpg" alt="" style="width: 60px;height: 78px;">
+                                                </div>
+                                                <div class="right-main-two">
+                                                    <div class="right-main-two-top">
+                                                        <strong>战争雷霆</strong>
+                                                    </div>
+                                                    <div class="right-main-two-bottom">
+                                                        <div class="right-two">
+                                                            <strong class="right-two-strong1">
+                                                                <span>腾讯运营</span>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="right-main-three">
+                                                    <div class="right-three-main">
+                                                        <div class="right-three-top">
+                                                            <span>94.7%</span>
+                                                        </div>
+                                                        <div class="right-three-bottom">
+                                                            <span>周推荐率</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-cont-bottom">
+                                <div class="banner-cont-top">
+                                    <div class="banner-tet">
+                                        <h2 class="banner-txt">火爆新品</h2>
+                                    </div>
+                                    <div class="banner-main">
+                                        <div class="banner-mains">
+                                            <div class="wight-banner">
+                                                <a href="#">
+                                                    <div class="right-main-one">
+                                                        <img src="img/wg-right-main2.jpg" alt="" style="width: 60px;height: 78px;">
+                                                        <span class="right-main-span">
+                                                        <span><i>1</i></span>
+                                                    </span>
+                                                    </div>
+                                                    <div class="right-main-two">
+                                                        <div class="right-main-two-top">
+                                                            <strong>Muse Dach喵斯快跑</strong>
+                                                        </div>
+                                                        <div class="right-main-two-bottom">
+                                                            <div class="right-two">
+                                                                <strong class="right-two-strong">
+                                                                    <span class="right-two-span">¥</span>
+                                                                    <span>18</span>
+                                                                </strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-main-three">
+                                                        <div class="right-three-main">
+                                                            <div class="right-three-top1">
+                                                                <span>2019-6-20</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="banner-main">
+                                        <div class="banner-mains">
+                                            <div class="wight-banner">
+                                                <a href="#">
+                                                    <div class="right-main-one">
+                                                        <img src="img/wg-right-main5.jpg" alt="" style="width: 60px;height: 78px;">
+                                                    </div>
+                                                    <div class="right-main-two">
+                                                        <div class="right-main-two-top">
+                                                            <strong>剑网3</strong>
+                                                        </div>
+                                                        <div class="right-main-two-bottom">
+                                                            <div class="right-two">
+                                                                <strong class="right-two-strong1">
+                                                                    <span>时长收费</span>
+                                                                </strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-main-three">
+                                                        <div class="right-three-main">
+                                                            <div class="right-three-top1">
+                                                                <span>2019-6-20</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="banner-main">
+                                        <div class="banner-mains">
+                                            <div class="wight-banner">
+                                                <a href="#">
+                                                    <div class="right-main-one">
+                                                        <img src="img/wg-right-main6.jpg" alt="" style="width: 60px;height: 78px;">
+                                                    </div>
+                                                    <div class="right-main-two">
+                                                        <div class="right-main-two-top">
+                                                            <strong>作业疯了</strong>
+                                                        </div>
+                                                        <div class="right-main-two-bottom">
+                                                            <div class="right-two">
+                                                                <strong class="right-two-strong">
+                                                                    <span>¥ 28</span>
+                                                                </strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-main-three">
+                                                        <div class="right-three-main">
+                                                            <div class="right-three-top1">
+                                                                <span>2019-6-14</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-cont-update">
+        <div class="banner-cont-date">
+            <div class='cont-date-top'>
+                <h2 class="cont-date-text">最近更新</h2>
+            </div>
+            <div class='cont-date-bottom'>
+                <div class="cont-bottom-date">
+                    <ul class="cont-bottom-ul">
+                        <li class="list-item">
+                            <div class="cont-bottom-lis">
+                                <div class="bottom-li-text">
+                                    <div class="bottom-tui">
+                                        <div class="cont-tui">
+                                            <img src="img/wg-banner-four1.jpg" alt=""style="width: 321px;height: 180px;">
+                                        </div>
+                                        <div class="cont-tuinfo">
+                                            <h3>v2.2.0 更新公告</h3>
+                                            <div class="tuinfor-name">
+                                                <a href="#">
+                                                    <span>恶果之地</span>
+                                                </a>
+                                            </div>
+                                            <p class="tuinfor-sum">
+                                                新功能
+                                                1.新加入4个角色
+                                                2.新加入6个boss
+                                                3.新加入3个困难挑战模式
+                                                4.新加入成就收集页...
+                                            </p>
+                                            <div class="tuinfor-other">
+                                                <p class="other">
+                                                    <i class="other-icon"></i>
+                                                    8
+                                                </p>
+                                                <p class="other-bottom">2019-06-29</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <div class="cont-bottom-lis">
+                                <div class="bottom-li-text">
+                                    <div class="bottom-tui">
+                                        <div class="cont-tui2">
+                                            <img src="img/wg-banner-four3.png" alt=""style="width: 321px;height: 180px;">
+                                        </div>
+                                        <div class="cont-tuinfo">
+                                            <h3>【BUG修复】v.14.38 改动说明</h3>
+                                            <div class="tuinfor-name">
+                                                <a href="#">
+                                                    <span>崩溃大陆</span>
+                                                </a>
+                                            </div>
+                                            <p class="tuinfor-sum">
+                                                修复了云存档无法读取，游戏时长显示为“0：0，1454月前”的问题
+                                            </p>
+                                            <div class="tuinfor-other">
+                                                <p class="other">
+                                                    <i class="other-icon"></i>
+                                                    0
+                                                </p>
+                                                <p class="other-bottom">2019-07-02</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <div class="cont-bottom-lis">
+                                <div class="bottom-li-text">
+                                    <div class="bottom-tui">
+                                        <div class="cont-tui3">
+                                            <img src="img/wg-banner-four2.jpg" alt=""style="width: 321px;height: 180px;">
+                                        </div>
+                                        <div class="cont-tuinfo">
+                                            <h3>第二阶段鸽王挑战赛正式开始！</h3>
+                                            <div class="tuinfor-name">
+                                                <a href="#">
+                                                    <span>Muse Dash 喵斯快跑</span>
+                                                </a>
+                                            </div>
+                                            <p class="tuinfor-sum">
+                                                第二阶段开始，肝起来少年少女们！
+                                            </p>
+                                            <div class="tuinfor-other">
+                                                <p class="other">
+                                                    <i class="other-icon"></i>
+                                                    47
+                                                </p>
+                                                <p class="other-bottom">2019-06-28</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-footer">
+        <div class="banner-footer-box">
+            <div class="footer-div">
+                <div class="footer-text">
+                    <h2>精选专区</h2>
+                </div>
+                <div class="footer-main">
+                    <div class="footer-main-list">
+                        <div class="footer-list footer-list-two">
+                            <div class="main-wight main-wight-one main-wight-card main-wight-w">
+                                <a href="#">
+                                    <div class="main-list-a-img">
+                                        <div class="main-list-cover">
+                                            <img src="img/wg-index-footer1.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="main-list-a-text">
+                                        <div class="main-a-text">
+                                            <div class="atext">时长付费</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="main-wight main-two main-div-w">
+                                <a href="#">
+                                    <div class="foot-main">
+                                        <div class="main-img">
+                                            <img src="img/wg-index-footer2.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="foot-main-bot">
+                                        <div class="foot-bot">
+                                            <div class="foot-text">时长付费</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="main-wight main-card-n main-sall-w main-timedown">
+                                <a href="#">
+                                    <div class="main-sallbox">
+                                        <div class="main-box">
+                                            <img src="img/wg-index-footer3.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="main-sall-bottom">
+                                        <div class="main-bottom-info">
+                                            <div class="bottom-info">
+                                                <span class="info-one">
+                                                    限时体验
+                                                </span>
+                                                <span class="info-two">免费试玩</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sall-time">
+                                        <i class="main-time-i"></i>
+                                        <strong class="main-time-strong">
+                                            剩余
+                                            <span class="main-time-span1">
+                                                <span class="main-time-span2" id="time"></span>
+                                                天
+                                            </span>
+                                        </strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="main-wight main-card-n main-sall-w main-timedown main-pos">
+                                <a href="#">
+                                    <div class="main-sallbox">
+                                        <div class="main-box">
+                                            <img src="img/wg-index-footer4.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="main-sall-bottom">
+                                        <div class="main-bottom-info">
+                                            <div class="bottom-info">
+                                                <span class="info-one">
+                                                    1.3折
+                                                </span>
+                                                <span class="info-two">¥ 11</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sall-time">
+                                        <i class="main-time-i"></i>
+                                        <strong class="main-time-strong">
+                                            剩余
+                                            <span class="main-time-span1">
+                                                <span class="main-time-span2"id="time1"></span>
+                                                天
+                                            </span>
+                                        </strong>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-main-list">
+                        <div class="main-list">
+                            <div class="main-wight main-card-n main-sall-w main-timedown main-pos2">
+                                <a href="#">
+                                    <div class="main-sallbox">
+                                        <div class="main-box">
+                                            <img src="img/wg-index-footer5.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="main-sall-bottom-list">
+                                                <span class="info-one-list">
+                                                    ¥ 36
+                                                </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="main-wight main-card-n main-sall-w main-timedown main-pos">
+                                <a href="#">
+                                    <div class="main-sallbox">
+                                        <div class="main-box">
+                                            <img src="img/wg-index-footer6.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="main-sall-bottom-list">
+                                         <span class="info-one-list">
+                                              ¥ 33
+                                          </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="main-wight main-card-n main-sall-w main-timedown main-pos">
+                                <a href="#">
+                                    <div class="main-sallbox">
+                                        <div class="main-box">
+                                            <img src="img/wg-index-footer7.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="main-sall-bottom-list">
+                                                <span class="info-one-list">
+                                                    ¥ 24
+                                                </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-vie-box">
+        <a href="#"class="banner-vie-a">
+            <span class="vie-span">
+                更多内容推荐
+                <i class="vie-i"></i>
+            </span>
+        </a>
+    </div>
+</div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/header.js"></script>
+<script src="js/banner.js"></script>
+<script src="js/jquery.js"></script>
+<script>
+    gettime('time','2019-12-13');
+    gettime('time1','2020-1-13');
+</script>
+</html>

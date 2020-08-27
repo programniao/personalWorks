@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>个人中心 - Player Game</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/初始化.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/foot.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/Center.css">
+    <script src="js/wow.min.js"></script>
+
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="bg"></div>
+<!--头部-->
+<div id="header" class="fix" style="background: rgb(0,0,0)">
+    <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+    <div class="home">
+        <div class="home_active loginh" href="javascript:;">
+            <div class="user-box">
+                <div class="dl-no">
+                    <p>您还未登陆，请先&nbsp;<a href="login.html">登录</a></p>
+                    <a href=login.html type=btn class="btn btn-dlx">登&nbsp;陆</a>
+                </div>
+                <div class="dl-true">
+                    <p class="user-name"></p>
+                    <ul>
+                        <li><span class="fa fa-user-circle"></span><a href="javascrpt:;">个人中心</a></li>
+                        <li><span class="fa fa-rmb"></span><a href="javascrpt:;">我的钱包</a></li>
+                        <li><span class="fa fa-gamepad"></span><a href="javascrpt:;">我的游戏</a></li>
+                        <li class=" dl-exit"><span class="fa fa-sign-out"></span><a href="javascrpt:;">退出登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="index.html">首页</a>
+        <a href="game%20shop.html">商店</a>
+        <a href="shequ.html">社区</a>
+    </div>
+</div>
+
+
+<div class="container gr">
+    <div class="row">
+        <div class="lie col-md-2">
+            <div class="hgr">个人中心</div>
+            <div class="lie-box">
+                <a href="javascript:;" class="activef"><span class="fa fa-credit-card-alt"></span>首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+                <a href="javascript:;"><span class="fa fa-user"></span>我的信息</a>
+                <a href="javascript:;"><span class="fa fa-cny"></span>我的钱包</a>
+                <a href="javascript:;"><span class="fa fa-comment"></span>我的发言</a>
+                <a href="javascript:;"><span class="fa fa-gamepad"></span>我的游戏</a>
+            </div>
+        </div>
+        <div class="nr col-md-9">
+            <div class="nr-item itactive">
+                <div class="bf-1">
+                    <img src="images/photo.jpg" alt="user" class="txImg">
+                    <span class="us-name">未登录</span>
+                    <div class="btnll">
+                        <a href="javascript:;" type="button" class="xgxx">修改资料</a>
+                    </div>
+                </div>
+                <div class="bf-2 row">
+                    <h3 class="lm-bt"><span class="fa fa-gamepad"></span>我的游戏</h3>
+                    <div class="gams col-md-3">
+                        <img src="images/farcry5_box.jpg" alt="">
+                        <div class="yck"></div>
+                        <button class="jr f5jh">进入游戏专区</button>
+                    </div>
+                    <div class="gams col-md-3">
+                        <img src="images/rcr_box.jpg" alt="">
+                        <div class="yck"></div>
+                        <button class="jr">进入游戏专区</button>
+                    </div>
+                    <div class="gams col-md-3">
+                        <img src="images/honor_box.jpg" alt="">
+                        <div class="yck"></div>
+                        <button class="jr">进入游戏专区</button>
+                    </div>
+                </div>
+                <!--<div class="bf-3">-->
+                    <!--<h3 class="lm-bt"><span class="fa fa-shield"></span>安全中心</h3>-->
+                <!--</div>-->
+            </div>
+            <div class="nr-item">
+                <p class="bt">我的信息</p>
+                <div class="tx">
+                    <div class="tximg">
+                        <a href="javascript:;" class="ghtx">更换头像</a>
+                    </div>
+                </div>
+                <input type="file" id="tx">
+                <p><span>昵称：</span><input type="text" class="nic"></p>
+                <p><span>用户名：</span><span class="yhm"></span></p>
+                <p><span>性别：</span><select name="sex" id="sex">
+                    <option value="nan">男</option>
+                    <option value="nv">女</option>
+                    <option value="baomi">保密</option>
+                </select></p>
+                <div style="text-align: center; margin-top: 30px;">
+                    <button class="bc btn">保存</button>
+                </div>
+            </div>
+            <div class="nr-item fix">
+                <p class="bt">我的钱包</p>
+                <p>账户余额</p>
+                <span class="qian">99999</span>P币
+                <div class="chongzhi">
+                    <button type="button" class="btn">P币充值</button>
+                </div>
+                <div class="bars"></div>
+                <p>可用金额 99999 P币</p>
+            </div>
+            <div class="nr-item">
+                <p class="bt">发言管理</p>
+                <div class="fayan">
+
+                </div>
+
+            </div>
+            <div class="nr-item">
+                <p class="bt">我的游戏</p>
+                <div class="yxq fix">
+                    <div class="gams col-md-3">
+                        <img src="images/farcry5_box.jpg" alt="">
+                        <div class="yck y2"></div>
+                        <button class="jr j2 f5jh">进入游戏专区</button>
+                    </div>
+                    <div class="gams col-md-3">
+                        <img src="images/rcr_box.jpg" alt="">
+                        <div class="yck y2"></div>
+                        <button class="jr j2">进入游戏专区</button>
+                    </div>
+                    <div class="gams col-md-3">
+                        <img src="images/honor_box.jpg" alt="">
+                        <div class="yck y2"></div>
+                        <button class="jr j2">进入游戏专区</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="foot_right">
+        <span>官方渠道:</span> <span class="fa fa-weixin"></span> <span class="fa fa-weibo"></span>
+        <span class="fa fa-qq"></span>
+    </div>
+    <div class="copyright">
+        <p>
+            <a href="javascript:;">Player Game</a> |
+            <a href="javascript:;">服务条款</a> |
+            <a href="javascript:;">用户服务协议</a> |
+            <a href="javascript:;">隐私政策</a> |
+            <a href="javascript:;">侵权通知</a> |
+            <a href="javascript:;">广告服务</a> |
+            <a href="javascript:;">客服中心</a> |
+            <a href="javascript:;">网站导航</a>
+        </p>
+        <p>
+            COPYRIGHT @ PLAYER GAME
+        </p>
+        <p>
+            咪咪@版权所有
+        </p>
+    </div>
+</footer>
+
+
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="js/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.hDialog.min.js"></script>
+<script src="js/template-native.js"></script>
+<script id="tem" type="text/html">
+    <%for(var i = 0; i < data.length; i++){%>
+    <div class="fy-box">
+        <p><%=data[i].text%></p>
+        <%if(data[i].img != undefined){%>
+        <%for(var j=0;j < data[i].img.length; j++){%>
+        <img src="<%=data[i].img[j]%>" width=30% class="" data-toggle="modal" data-target="#<%=data[i].id%>">
+        <div class="modal fade" id="<%=data[i].id%>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <img src="<%=data[i].img[j]%>" alt="">
+            </div>
+        </div>
+        <%}%>
+        <%}%>
+    </div>
+    <%}%>
+</script>
+<script src="js/header.js"></script>
+<script src="js/center.js"></script>
+
+</body>
+</html>

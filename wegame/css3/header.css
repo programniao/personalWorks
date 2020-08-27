@@ -1,0 +1,353 @@
+.wight-header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    overflow: hidden;
+}
+.wight-header .wight-left{
+    width: 233px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+}
+.wight-center{
+    width: 580px;
+    height: 80px;
+    margin-left: 90px;
+    float: left;
+}
+.wight-center li{
+    text-align: center;
+    line-height: 80px;
+    display: inline-block;
+    margin: 0 12px;
+    padding: 0 20px;
+}
+.wight-center li a{
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+}
+.wight-center li a:hover{
+    color: white;
+}
+.wight-center ul .cur .color1{
+    color: white;
+}
+.wight-center ul .cur{
+    background-color: rgba(255,255,255,0.4);
+}
+.wight-right{
+    width: 300px;
+    height: 80px;
+    float: right;
+    line-height: 80px;
+}
+.wight-right .wight-right-ul{
+    width: 240px;
+    height: 34px;
+    float: left;
+}
+.wight-right .wight-right-ul li{
+    display: inline-block;
+    margin-right:10px;
+    text-align: center;
+    line-height: 34px;
+}
+.wight-right .wight-right-ul li a{
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+}
+.wight-right .wight-right-kehu{
+    width: 70px;
+    padding: 1px 9px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 30px;
+}
+.wight-right .wight-right-kehu:hover{
+    background-color: orange;
+}
+.wight-right .wight-right-ul li a:hover{
+    color: white;
+}
+.wight-right .wight-right-login{
+    width: 46px;
+    height: 34px;
+    float: right;
+    margin-right: 50px;
+    line-height: 10px;
+}
+.wight-right .wight-right-login a{
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+}
+.wight-right .wight-right-login a:hover{
+    color: white;
+}
+
+/*登录*/
+.wight-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+}
+.wight-mask .wight-login{
+    width: 560px;
+    height: 410px;
+    background-color: white;
+    margin: 100px auto;
+    position: relative;
+    box-sizing: border-box;
+}
+.wight-login{
+    overflow: hidden;
+}
+.wight-login-hd{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    border-bottom: 0.5px solid grey;
+}
+.wight-login-nav{
+    width: 200px;
+    height: 50px;
+    margin: 10px auto 0;
+}
+.wight-login-nav li{
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-left: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.wight-nav-one{
+    color: #F9B011;
+}
+.cur{
+    color: orange;
+    border-bottom: 4px solid orange;
+}
+.wight-login-nav .cur2{
+    border-bottom: 4px solid orange;
+    /*margin-bottom: 10px;*/
+}
+
+.wg-logo-close{
+    text-decoration: none;
+}
+.wg-logo-close:hover{
+    opacity: 1;
+}
+.wg-logo-close:after{
+    content: "";
+    position: absolute;
+    left: 98%;
+    top: 20%;
+    width: 12px;
+    height: 12px;
+    margin-left: -6px;
+    margin-top: -6px;
+    background: url("../img/下载.png") no-repeat 50% 50%;
+
+}
+
+
+.wight-login-nav a{
+    text-align: center;
+    display: inline;
+    width: 30px;
+    text-decoration: none;
+    /*padding: 15px;*/
+}
+.wight-login-bd{
+    margin-top: 55px;
+    text-align: center;
+    overflow: hidden;
+}
+.wight-login-bd section{
+    text-align: center;
+    width: 560px;
+    height: 360px;
+    margin: 0 auto;
+}
+.wight-bd-1{
+    width: 160px;
+    height: 20px;
+    margin: 34px auto;
+    font-size: 22px;
+}
+.wight-bd-2 a{
+    color: #3481cf;
+}
+.wight-bd-3{
+    width: 400px;
+    height: 200px;
+    margin: 0px auto;
+    position: relative;
+}
+.wight-bd-3-span{
+    display: inline-block;
+    height: 120px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+}
+.wight-bd-down{
+    width: 82px;
+    height: 82px;
+    left: -58px;
+    position: absolute;
+    top: 15px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 4px 1px;
+}
+.wight-bd3-a1{
+    position: absolute;
+    top: 15px;
+    right: 98px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 4px 3px rgba(77,120,255,0.4);
+    width: 82px;
+    height: 82px;
+    padding: 1px;
+}
+.wight-ba-a-span{
+    display: inline-block;
+    width: 84px;
+    height: 17px;
+    font-size: 13px;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 67px;
+    left: 0;
+    color: white;
+    display: none;
+}
+.wight-wg-bd-bottom{
+    display: inline-block;
+    width: 100%;
+    height: 16px;
+    margin-right: -160px;
+    float: right;
+}
+.wight-wg-bd-bottom a{
+    font-size: 13px;
+    color: grey;
+}
+.wight-wg-bd-bottom a:hover{
+    border-bottom:0.5px solid black;
+}
+/*微信登录*/
+.wight-bd-sect2{
+    margin-top: 30px;
+}
+.wight-bd-sect2 .sect2-span1{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.wight-bd-sect2 .wight-sect2{
+    font-size: 14px;
+    color: grey;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.wight-bd-sect2-erwei{
+    margin-top: 20px;
+}
+.wight-ba-sect2-text{
+    color: black;
+    font-size: 14px;
+}
+.wight-ba-sect2-text .sect2-text-1{
+    color: grey;
+    font-size: 12px;
+}
+
+.tabe{
+    display: none;
+}
+.wight-login-bd .tabe{
+    position: absolute;
+    top: 30px;
+    margin-top: 50px;
+    background-color: white;
+
+}
+.wight-login-bd .tabe .tab-input{
+    margin-top: 20px;
+}
+.wight-login-bd .tabe .tab-input-ba-3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.wight-login-bd .tabe .wight-bd-inputs input{
+    margin-bottom: 15px;
+    width: 290px;
+    height: 42px;
+    border: 0.6px solid grey;
+    border-radius: 3px;
+    outline: none;
+    font-size: 17px;
+}
+.wight-login-bd .tabe .wight-bd-inputs .input-3{
+    border: none;
+    border-radius: 0px;
+    background-color: rgb(134,206,47);
+}
+.tabe .tab-input-ba-3 #tab-input-ba{
+    color: #3481cf;
+}
+.wight-bd-input-icon{
+    position: absolute;
+    top: 134px;
+    left: 390px;
+    display: inline-block;
+    width: 21px;
+    height: 22px;
+    background: url("../img/icon_3_tiny.png") -116px -160px no-repeat;
+    display: none;
+}
+.wight-bd-input-icon:hover{
+    background-position: -139px -160px;
+}
+.wight-bd-input-icon\!{
+    width: 160px;
+    height: 30px;
+    /*background-color: #08ffa4;*/
+    float: left;
+    margin-left: 160px;
+    display: none;
+}
+.wight-login-bd .tabe .bd-icon{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../img/icon_3_tiny.png") 0 -162px no-repeat !important;
+    float: left;
+    line-height: 18px;
+}
+.wight-login-bd .tabe .bd-text{
+    font-size: 14px;
+    color: black;
+    float: left;
+}
+.wight-wg-bd-bottom2{
+    position: absolute;
+    top: 304.8px;
+    left: 348.5px;
+}
+.wight-wg-bd-bottom2 a{
+    color: grey;
+    font-size: 13px;
+}

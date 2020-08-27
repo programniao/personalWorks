@@ -1,0 +1,55 @@
+.game-img{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+.shop-x{
+    display: inline-block;
+    width: 60%;
+    padding: 10px 0;
+}
+.shop-game{
+    /*display: block;*/
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    font-weight: bold;
+    transition: all 0.8s;
+}
+.win-logo{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.shop-name{
+    color: #444;
+    font-size: 15px;
+    line-height: 18px;
+    transition: color 0.25s;
+    padding-bottom: 10px;
+
+}
+.shop-left{
+    display: inline-block;
+    padding-left: 15px;
+}
+.shop-leibie a{
+    background: rgba(241, 241, 241, 0.6);;
+    display: inline-block;
+    line-height: 19px;
+    padding: 0 7px;
+    margin-right: 2px;
+    border-radius: 2px;
+    margin-bottom: 3px;
+    font-size: 11px;
+    color: #a99d9d;
+}
+.jiage{
+    float: right;
+    /* top: 50%; */
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.shop-game:hover{
+    box-shadow:  0px 3px 4px -3px;
+}

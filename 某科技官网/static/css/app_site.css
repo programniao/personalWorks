@@ -1,0 +1,163 @@
+.banner {
+    width: 1910px;
+    height: 100%;
+    background-image: url('../images/app_bg1.jpg');
+    background-size: 1910px 910px;
+    overflow: hidden;
+}
+
+.app_banner2 {
+    width: 1910px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.app_banner2 .banner_top {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 80px;
+    margin-top: 300px;
+}
+
+.banner_top h1 {
+    color: #2f3640;
+    font-size: 50px;
+    user-select: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app_banner2 .top_text p{
+    width: 400px;
+    color: #2f3640;
+    text-indent: 2em;
+    font-size: 20px;
+}
+
+.app_banner2 .app_banner_content {
+    width: 1064px;
+    height: 100%;
+    background: url('../images/app_bg2.png') no-repeat ;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.banner3 {
+    width: 1910px;
+    height: 910px;
+    background: #2f3640;
+}
+
+.banner3 .banner3_top {
+    width: 300px;
+    height: 200px;
+    margin: 0  auto;
+    line-height: 300px;
+}
+
+.banner3_top h1 {
+    color: white;
+    font-size: 50px;
+    user-select: none;
+}
+
+.banner3_content {
+    width: 1910px;
+    height: 700px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.banner3_content ul {
+    list-style: none;
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.banner3_content li {
+    margin-top: 30px;
+}
+
+.banner3_content li .content_items {
+    display: flex;
+}
+
+.content_items img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.content_items .items_text span{
+    font-size: 29px;
+    font-weight: 600;
+    color: #f5f6fa;
+}
+
+.items_text p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.banner4_content .items_1 {
+    background-color: #00a8ff;
+}
+.banner4_content .items_2 {
+    background-color: #e84118;
+}
+.banner4_content .items_3 {
+    background-color: #ff6b81;
+}
+.banner4_content .items_4 {
+    background-color: #ff7f50;
+}
+.banner4_content .items_5 {
+    background-color: #7bed9f;
+}
+.banner4_content .items_6 {
+    background-color: #f8a5c2;
+}
+
+.banner4_content .content_items span {
+    display: block;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+} 
+
+
+.banner4_content .content_items p {
+    width: 400px;
+    font-size: 20px;
+    color: white;
+    text-indent: 2em;
+    margin: 0 auto;
+    margin-top: 10px;
+} 
+
+.footer {
+    width: 1910px;
+    height: 200px;
+    background-color: #2f3640;
+}
+
+.footer p {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    color: white;
+    font-size: 0px;
+}
+
+.footer span{
+    
+    display: block;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+

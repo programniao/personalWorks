@@ -1,0 +1,77 @@
+.banner {
+    width: 1910px;
+    height: 929px;
+    background-color: rgba(0, 0, 0, .6);
+    position: relative;
+}
+
+.banner .i_base {
+    font-size: 70px;
+    float: left;
+    overflow: hidden;
+    line-height: 800px;
+    z-index: 999;
+}
+
+.banner .icon--1 {
+    position: absolute;
+    left: 130px;
+}
+
+.banner .icon-uniE901 {
+    float: right;
+    overflow: hidden;
+    position: absolute;
+    right: 130px;
+}
+
+.banner_box {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.box_ul {
+    list-style: none;
+    width: 3010px;
+    height: 100%;
+    display: flex;
+    position: absolute;
+}
+
+.box_item {
+    width: 1000px;
+    height: 100%;
+}
+
+ .item-1_text {
+     width: 600px;
+     height: 500px;
+     margin: 0 auto;
+     margin-top: 200px;
+ }
+.item-1_text h1 {
+    font-size: 50px;
+    color: #EA2027;
+    margin-bottom: 30px;
+}
+ .item-1_text p {
+     width: 540px;
+     text-indent: 2em;
+     color: #535c68;
+ }
+
+ .item_3 {
+     width: 1000px;
+     height: 100%;
+     display: flex;
+     align-content: flex-start;
+     flex-wrap: wrap;
+ }
+
+ .item_3 .item-3_box {
+    margin: 5px;
+ }

@@ -1,0 +1,446 @@
+body,a,ul,li,p,h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url("../img/logo.png") no-repeat;
+    background-size: 36px 43px;
+    z-index: 2;
+    height: 43px;
+    line-height: 43px;
+    padding-left: 46px;
+    margin-left: 30px;
+    margin-top: 18px;
+    font-size: 36px;
+    display: block;
+    color: #000;
+}
+.side img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 480px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.top{
+    top: 0;
+    left: 0;
+    text-align: right;
+    min-width: 560px;
+    z-index: 1;
+    position: relative;
+}
+.top .top-one{
+    margin-right: 60px;
+}
+.top .item{
+    float: right;
+    margin: 20px 40px 0 0;
+    font-size: 16px;
+    color: rgba(0,0,0,.902);
+    padding: 10px 0 0;
+    line-height: 24px;
+}
+.top .top-one a{
+    color: rgba(120,120,120,0.7);
+    opacity: 6;
+    transition: 0.6s;
+}
+
+.top .top-two{
+    color: rgba(120,120,120,0.7);
+    opacity: 6;
+    transition: 0.6s;
+}
+.top .top-one a:hover,
+.top .top-two:hover{
+    color: black;
+}
+.top .top-two>ul{
+    display: none;
+    list-style: none;
+    text-align: left;
+    padding-top: 8px;
+}
+.top .top-two>ul li{
+    padding-top: 16px;
+}
+.top .top-two>ul li a{
+    color: #888;
+}
+.top .top-three .top-three-a{
+    float: right;
+    position: relative;
+    display: block;
+}
+.top .top-three .top-three-a>div{
+    border-radius: 6px;
+    background: #f54444;
+    background: linear-gradient(126deg,#fc4754,#ff794c) #f54444;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 2px 0 0 5px;
+    padding: 0 10px 0 24px;
+    color: #fff;
+    font-weight: 300;
+}
+.top .top-three .top-three-a>img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.top .three-none{
+    width: 290px;
+    clear: both;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background-color: white;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.12);
+    display: none;
+}
+.three-none .upper{
+    height: 49px;
+    position: relative;
+    border-bottom: 1px solid #CCCCCC;
+}
+.three-none .upper-icon{
+    display: block;
+    border-left: 0.7px solid #ccc;
+    width: 40px;
+    height: 49px;
+    z-index: 1;
+    float: right;
+    background: 0 0;
+    text-align: center;
+    position: relative;
+}
+.upper .seach{
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.upper .upper-input{
+    border: none;
+    margin-right: 41px;
+    background: 0 0;
+    height: 49px;
+    line-height: 49px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.upper-input .upper-label{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    background: #fff;
+    font-weight: lighter;
+    color: #aaa;
+}
+.upper-input .upper-linput{
+    width: 100%;
+    background: 0 0;
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.bottom{
+    padding-top: 24px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1;
+}
+.bottom div{
+    margin-bottom: 24px;
+}
+.bottom a{
+    margin: 0 5px;
+    color: #359eff;
+}
+.main{
+    margin-left: 480px;
+    position: relative;
+    height: 100%;
+}
+.main .main-main{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.main-main>.main-form-one{
+    width: 480px;
+    margin: 0 auto;
+    position: relative;
+}
+.main .wecome{
+    font-size: 44px;
+    font-weight: 400;
+}
+.main .top-text-a{
+    float: right;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+.top-text-a a{
+    color: #359eff;
+}
+.header{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.main-form{
+    margin-top: 40px;
+}
+.form-input-one{
+    position: relative;
+}
+.input-one{
+    position: absolute;
+    right: 0;
+    height: 52px;
+    z-index: 1;
+}
+.input-one-ok{
+    background: url(../img/tick.png) no-repeat;
+    width: 20px;
+    height: 15px;
+    display: none;
+    float: right;
+    margin: 18.5px 10px;
+}
+.input-outclass{
+    width: 480px;
+    height: 52px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius:8px;
+    font-size: 20px;
+}
+.input-eater-text{
+    padding-top: 8px;
+    height: 18px;
+    overflow: hidden;
+    position: relative;
+    line-height: 1;
+    display: none;
+}
+.input-eater-text .input-text{
+    background: url("../img/error.png") no-repeat;
+    /*background-image: url("../img/error@2x.png");*/
+    background-image: image-set("../img/error.png" 1x, "../img/error@2x.png" 2x);
+    padding: 0 0 0 24px;
+    color: #ff5b5b;
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+.form-input-two{
+    margin-top: 40px;
+}
+.main .form-input-three .ophone{
+    width: 265px;
+    float: right;
+}
+.form-input-three{
+    margin-top: 40px;
+}
+.one-ophone{
+    width: 154px;
+}
+.nation{
+    width: 168px;
+    height: 52px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 22px;
+    padding-left: 5px;
+}
+.seleger{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 52px;
+    line-height: 52px;
+    padding-right: 12px;
+}
+.seleger img{
+    vertical-align: middle;
+}
+.cuntion{
+    top: 51px;
+    width: 480px;
+    height: 200px;
+    display: none;
+}
+.options{
+    border: 1px #b2b2b2 solid;
+    background-color: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,.15);
+    font-size: 20px;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 2;
+}
+ul.options{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cuntion li{
+    padding: 0px 20px;
+    transition: 0.3s;
+}
+.options li a{
+    line-height: 48px;
+    height: 48px;
+}
+.cuntion li a{
+    color: #000;
+}
+.cuntion li:hover{
+    background-color: rgba(120,120,120,0.4);
+}
+.number-input-text .number-text{
+    font-size: 14px;
+    color: rgba(120,120,120,0.5);
+}
+.sen-class{
+    width: 307px;
+    height: 50px;
+    display: block;
+    border-radius: 9px;
+    background-color: #3487ff;
+    border: 1px solid #3487ff;
+    float: right;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    margin-top: 20px;
+    opacity: 7;
+    z-index: 5;
+}
+.main .sen-class1{
+    background-color: #f0f0f0;
+    box-Shadow : none;
+    color : #ccc;
+    width: 307px;
+    height: 50px;
+    display: block;
+    border-radius: 9px;
+    border: 1px solid #f0f0f0;
+    float: right;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    outline: none;
+    margin-top: 20px;
+}
+.main .main-main .cader{
+    width: 132px;
+    height: 50px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #aaa;
+    font-size: 19px;
+    margin-top: 20px;
+
+}
+#sms{
+    display: none;
+}
+.confirm .sonfirm-input{
+    border: 1px #3083ff solid;
+    border-radius: 4px;
+    background-color: #3487ff;
+    box-shadow: 0 5px 8px 0 rgba(24,95,255,.1);
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+    background-image: linear-gradient(0deg,#398bff,#3083ff);
+    width: 478px;
+    height: 60px;
+    margin: 40px 0 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.main .main-main .confirm{
+    margin-top: 16px;
+    line-height: 18px;
+    font-size: 14px;
+}
+#agree{
+    display: none;
+}
+.confirm label{
+    line-height: 30px;
+    font-size: 13px;
+    color: #aaa;
+}
+.confirm label img{
+    vertical-align: middle;
+}
+.submit-text{
+    position: relative;
+    padding-top: 6px;
+    line-height: 1;
+    height: 18px;
+    overflow: hidden;
+    display: none;
+}
+.submit-text .errot-tip{
+    background: url(../img/error.png) no-repeat;
+    padding: 0 0 0 24px;
+    color: #ff5b5b;
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+.confirm .agreement-list{
+    visibility: visible;
+    opacity: 1;
+
+    display: none;
+}
+.confirm .agreement-list a{
+    visibility: visible;
+}
+.confirm .foter{
+    margin: 60px auto;
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 500;
+    text-align: center;
+}
+
+
